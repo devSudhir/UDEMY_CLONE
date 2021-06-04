@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .headContent > nav > ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+        height: 5rem;
+        margin-top: -0.7rem;
+        position: relative;
+      }
+      .headContent > nav > ul > li {
+        margin-right: 0.4%;
+      }
+      .headContent > nav > ul > li:nth-child(3) {
+        flex-grow: 2;
+        flex-shrink: 3;
+      }
+      .udemyLogo {
+        width: 110px;
+        height: 32px;
+        margin-left: -2rem;
+      }
+      .navText {
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        margin-top: -0.2rem;
+        text-align: center;
+        width: 150px;
+      }
+      .reduce-width {
+        width: 100px;
+      }
+      .navText > a:hover {
+        color: rgb(15, 124, 144);
+      }
+      .navText > a {
+        text-decoration: none;
+        font-size: 0.8rem;
+        color: rgb(60, 59, 55);
+      }
+      .cartIcon {
+        color: #73726c;
+        width: 1.2rem;
+        height: 1.3rem;
+      }
+      .btn {
+        margin-right: 0px;
+      }
+      .btn-medium {
+        height: 2.7rem;
+        width: 100px;
+        border: 1px solid rgb(40, 150, 169);
+        color: rgb(15, 124, 144);
+        font-weight: bold;
+        text-align: center;
+        border-radius: 0.2rem;
+      }
+      .btn-bgcolor {
+        color: white;
+        background-color: rgb(15, 124, 144);
+      }
+      .btn-hover1:hover {
+        color: black;
+        cursor: pointer;
+        outline: none;
+      }
+      .btn-hover2:hover {
+        background-color: black;
+        cursor: pointer;
+        outline: none;
+      }
+      .langIconbtn {
+        width: 2.7rem;
+        outline: none;
+      }
+      .langIconbtn:hover {
+        cursor: pointer;
+        outline: none;
+      }
+      .langIconbtn > img {
+        width: 1.2rem;
+        height: 1.2rem;
+      }
+      .cartBtn {
+        outline: none;
+        background-color: transparent;
+        border: none;
+      }
+      .cartBtn:hover {
+        cursor: pointer;
+      }
+      .searchBox {
+        height: 3rem;
+        border-radius: 2rem;
+        border: 1px solid rgb(162, 159, 146);
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+      }
+
+      .searchBox > button > img {
+        height: 16px;
+        width: 16px;
+        background-color: white;
+      }
+      .searchBox > button,
+      .searchBox > input {
+        border: none;
+        outline: none;
+        background-color: white;
+        margin-left: 0.6rem;
+        cursor: pointer;
+      }
+      .searchBox > input {
+        cursor: text;
+        width: 85%;
+      }
+      input:focus {
+        outline: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="headContent">
+      <nav>
+        <ul>
+          <li>
+            <img
+              class="udemyLogo"
+              src="https://www.udemy.com/staticx/udemy/images/v6/logo-coral.svg"
+              alt="logo"
+            />
+          </li>
+          <li class="navText reduce-width"><a href="">Categories</a></li>
+          <li style="flex-basis: 42vw">
+            <div class="searchBox">
+              <button>
+                <img
+                  src="https://image.flaticon.com/icons/png/512/482/482631.png"
+                  alt="search logo"
+                />
+              </button>
+              <input type="search" placeholder="Search for anything" />
+            </div>
+          </li>
+          <li style="margin-right: -2%" class="navText">
+            <a href=""><span>Udemy for Business</span></a>
+          </li>
+          <li style="margin-right: -1%; margin-left: 0%" class="navText">
+            <a href=""><span>Teach On Udemy</span></a>
+          </li>
+          <li style="margin-right: 1%">
+            <button class="cartBtn">
+              <img
+                class="cartIcon"
+                src="https://image.flaticon.com/icons/png/128/628/628556.png"
+                alt="cart"
+              />
+            </button>
+          </li>
+          <li><button class="btn-medium btn-hover1">Log in</button></li>
+          <li>
+            <button class="btn-medium btn-bgcolor btn-hover2">Sign in</button>
+          </li>
+          <li>
+            <button class="btn-medium langIconbtn">
+              <img
+                src="https://image.flaticon.com/icons/png/128/591/591788.png"
+                alt="language logo"
+              />
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <div></div>
+    </section>
+    <footer></footer>
+  </body>
+</html>

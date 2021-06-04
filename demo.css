@@ -1,0 +1,136 @@
+* {
+  /* margin: 0; */
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6rem;
+}
+#topcourse {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+}
+.subcourses {
+  border: 1px solid #333;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.subcourses > img {
+  width: 100%;
+  height: 50vh;
+}
+#linktocourses {
+  max-width: 100vw;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.subparts div {
+  margin-bottom: 20px;
+}
+#midSection {
+  max-width: 100vw;
+  height: 60vh;
+  padding: 40px 0;
+}
+.image {
+  position: relative;
+  width: 20vw;
+  height: 100%;
+  z-index: 1;
+  top: -48vh;
+  left: 200px;
+}
+
+.headings {
+  width: 97.5vw;
+  height: 40vh;
+  padding: 50px 0;
+  background-color: #e2e22a;
+  display: flex;
+  flex-basis: 50vw;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.content {
+  position: relative;
+  /* top: 25vh; */
+  right: 300px;
+}
+.content a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #094c59;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.content p {
+  font-size: large;
+  margin-bottom: 30px;
+}
+#companies {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #333;
+}
+#logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logo {
+  margin-right: 20px;
+}
+#youtube {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.youtube_content {
+  margin-left: 70px;
+  color: #333;
+}
+#links {
+  display: grid;
+  padding: 10px 50px;
+  grid-template-columns: 20% 20% 20% 40%;
+}
+#links ul {
+  flex-grow: 2;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #0f91bf;
+}
+.language {
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.language a {
+  text-align: right;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.curserPointer {
+  cursor: pointer;
+}
+.udemyLogo {
+  width: 8vw;
+  height: 2.8vw;
+}

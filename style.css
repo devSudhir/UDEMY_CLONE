@@ -1,0 +1,224 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+/* The  header part css */
+header {
+  width: 100%;
+  height: 10vh;
+}
+.cursorPointer:hover {
+  cursor: pointer;
+  outline: none;
+}
+nav {
+  padding: 1vw 2vw;
+}
+.headContent > nav > ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  height: 5rem;
+  margin-top: -0.7rem;
+  position: relative;
+}
+.headContent > nav > ul > li {
+  margin-right: 0.4%;
+}
+.headContent > nav > ul > li:nth-child(3) {
+  flex-grow: 2;
+  flex-shrink: 3;
+}
+.udemyLogo {
+  width: 10vw;
+  height: 2.8vw;
+}
+.navText {
+  font-weight: 400;
+  margin-top: -0.2rem;
+  text-align: center;
+  width: 150px;
+}
+.reduce-width {
+  width: 100px;
+}
+.navText > a:hover {
+  color: rgb(15, 124, 144);
+}
+.navText > a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: rgb(60, 59, 55);
+}
+.cartIcon {
+  color: #73726c;
+  width: 1.2rem;
+  height: 1.3rem;
+}
+.btn {
+  margin-right: 0px;
+}
+/* .btn-medium {
+  height: 2.7rem;
+  width: 100px;
+  border: 1px solid rgb(40, 150, 169);
+  color: rgb(15, 124, 144);
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0.2rem;
+}
+.btn-bgcolor {
+  color: white;
+  background-color: rgb(15, 124, 144);
+}
+.btn-hover1:hover {
+  color: black;
+}
+.btn-hover2:hover {
+  background-color: black;
+}
+.langIconbtn {
+  width: 2.7rem;
+  outline: none;
+}
+
+.langIconbtn > img {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+.cartBtn {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+
+.searchBox {
+  height: 3rem;
+  border-radius: 2rem;
+  border: 1px solid rgb(162, 159, 146);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.searchBox > button > img {
+  height: 16px;
+  width: 16px;
+  background-color: white;
+}
+.searchBox > button,
+.searchBox > input {
+  border: none;
+  outline: none;
+  background-color: white;
+  margin-left: 0.6rem;
+}
+.searchBox > input {
+  cursor: text;
+  width: 85%;
+}
+input:focus {
+  outline: none;
+} */
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 1050px) {
+  ul > li:nth-child(4) {
+    display: none;
+  }
+}
+@media (max-width: 850px) {
+  ul > li:nth-child(5) {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  ul > li:nth-child(2),
+  .searchBox > input,
+  ul > li:nth-child(6),
+  ul > li:nth-child(7),
+  ul > li:nth-child(8) {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+}
+
+/* body code */
+main {
+  width: 100%;
+  height: 90vh;
+  /* background-color: aqua; */
+}
+#signup-form {
+  width: 30%;
+  height: 80vh;
+  /* background-color: #aaa; */
+  margin: auto;
+  padding: 1vw;
+}
+
+/* The top code is mine */
+
+input[type="text"] {
+  width: 100%;
+  border: 2px solid #aaa;
+  border-radius: 4px;
+  margin: 8px 0;
+  outline: none;
+  padding: 8px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: dodgerBlue;
+  box-shadow: 0 0 8px 0 dodgerBlue;
+}
+
+.inputWithIcon input[type="text"] {
+  padding-left: 40px;
+}
+
+.inputWithIcon {
+  position: relative;
+}
+
+.inputWithIcon i {
+  position: absolute;
+  left: 0;
+  top: 8px;
+  padding: 9px 8px;
+  color: #aaa;
+  transition: 0.3s;
+}
+
+/* The below code is mine */
+.signup-button {
+  background-color: rgb(194, 18, 18);
+}
+.signup-button button {
+  color: white;
+  border: none;
+  background: transparent;
+}
+
+/* feature modification */
+
+.flex-box {
+  display: flex;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  color: teal;
+}
